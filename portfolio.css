@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500&family=Roboto+Slab:wght@400;500&family=Tilt+Neon&display=swap');
+body {
+    
+    font-family: 'Noto Sans Lao', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Tilt Neon', cursive;
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: outset #2f4bbe 2px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 50px;
+}
+
+.header {
+    background-image: url(https://img.freepik.com/free-vector/memphis-blue-background-with-halftone-line-elements_1017-33622.jpg?size=626&ext=jpg&ga=GA1.1.346358790.1667457215&semt=sph);
+    color: #fff;
+   
+    height: 150px;
+    
+    border-radius: 19px 19px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1 {
+    margin-top: -28px;
+}
+.nav {
+    height: 50px;
+    text-align: center;  
+   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.4);
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    
+    font-weight: bold;
+    padding: 15px ;
+    
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content {
+    width: 960px;
+    height: 370px;
+   
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.inside-con {
+    width: 880px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*=====================inside-left=========================*/
+
+.inside-left h3,h1{
+   margin-bottom: -3%;
+   
+}
+.texer {
+    margin-top: 7%;
+}
+.texer p {
+    
+    margin-bottom: -5%;
+}
+.botton1 {
+    margin-top: 7%;    
+}
+.botton1 a:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: #fff;
+    width: 80px;
+}
+
+.inside-right img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+   margin-left: 20px;
+}
+
+
+/*=====================inside-left=========================*/
+
+
+
+
+.footer {
+    border-radius: 0 0 19px 19px;
+    background: #000;
+    
+    height: 40px;
+    clear: both;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
